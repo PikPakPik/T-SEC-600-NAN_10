@@ -4,6 +4,6 @@ Ce README contient des liens cliquables pour accéder aux fichiers du dossier `l
 
 ## Fichiers
 
-- [LOG](writeups/LOG.md)
+- [TOSS_A_COIN](writeups/TOSS_A_COIN.md)
 
 N'hésitez pas à explorer ces fichiers pour résoudre le CTF !
