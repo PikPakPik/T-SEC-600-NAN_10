@@ -1,8 +1,7 @@
 # CTF: Toss a Coin
 
-![Contest Date: 2020-07-25](https://img.shields.io/badge/contest%20date-2020--07--25-informational)
+![Contest Date: 2024-05-07](https://img.shields.io/badge/contest%20date-2020--05--07-informational)
 ![Category: Web](https://img.shields.io/badge/category-web-%237159c1)
-![Score: 50](https://img.shields.io/badge/score-50-brightgreen)
 
 ## Description
 
