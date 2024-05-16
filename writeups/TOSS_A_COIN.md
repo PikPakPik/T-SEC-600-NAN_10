@@ -40,7 +40,9 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 The target machine has two open ports, 22 and 80. Port 80 is running a web server. Let's visit the website.
 
+```
 http://$IP
+```
 
 We found a page 
 
@@ -114,7 +116,12 @@ Progress: 6045 / 220561 (2.74%)^C
 
 We do the same on the `/o`and after that we found a directory `/s` and after the `/s`again and we do the same to find at the end the `/y` directory.
 
-The url is : `http://$IP/t/o/s/s/_/a/_/c/o/i/n/_/t/o/_/y/o/u/r/_/w/i/t/c/h/e/r/_/o/h/_/v/a/l/l/e/y/_/o/f/_/p/l/e/n/t/y``
+Is the lyrics of the song.
+
+The url is : 
+```
+http://$IP/t/o/s/s/_/a/_/c/o/i/n/_/t/o/_/y/o/u/r/_/w/i/t/c/h/e/r/_/o/h/_/v/a/l/l/e/y/_/o/f/_/p/l/e/n/t/y
+```
 
 We found the flag in the source code of the page.
 ![alt text](./img/tossacoin3.png)
