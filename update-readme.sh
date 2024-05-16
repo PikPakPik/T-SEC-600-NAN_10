@@ -8,6 +8,8 @@ echo "## Fichiers" >> README.md
 echo "" >> README.md
 
 for file in writeups/*; do
+    if [ -d "$file" ]; then
+        continue
     filename=$(basename -- "$file")
     filename="${filename%.*}"
     echo "- [$filename](writeups/$filename.md)" >> README.md
