@@ -5,6 +5,5 @@ Ce README contient des liens cliquables pour accéder aux fichiers du dossier `l
 ## Fichiers
 
 - [TOSS_A_COIN](writeups/TOSS_A_COIN.md)
-- [img](writeups/img.md)
 
 N'hésitez pas à explorer ces fichiers pour résoudre le CTF !
