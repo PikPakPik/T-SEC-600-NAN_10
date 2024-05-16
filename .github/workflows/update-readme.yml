@@ -20,5 +20,5 @@ jobs:
         git diff
         git config --global user.email "alexandre.tressel@epitech.eu"
         git config --global user.name "GitHub Action"
-        git commit -am "Update README.md" || exit 0
+        git commit -am "ci: 🤖 Update README.md" || exit 0
         git push
