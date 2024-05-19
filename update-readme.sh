@@ -19,7 +19,9 @@ for dir in writeups/*; do
         filename=$(basename -- "$file")
         filename="${filename%.*}"
         link="${dir// /%20}/$filename.md"
-        echo "- [$filename]($link)" >> README.md
+        difficulty=$(sed -n '3p' "$file")
+        echo "- [$filename $difficulty]($link)" >> README.md
+
     done
 
     echo "" >> README.md
