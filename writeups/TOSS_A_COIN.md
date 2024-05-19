@@ -1,7 +1,7 @@
 # CTF: Toss a Coin
 
 ![Contest Date: 2024-05-07](https://img.shields.io/badge/contest%20date-2024--05--07-informational)
-![Category: Web](https://img.shields.io/badge/category-web-%237159c1)
+![Category: Web, BruteForce](https://img.shields.io/badge/category-web,bruteforce-%237159c1)
 ![By: Alexandre & Eloi](https://img.shields.io/badge/by-Alexandre%20%26%20Eloi-%23f9a03c)
 
 ## Description
@@ -131,7 +131,6 @@ We found a ssh login.
 
 ```bash
 ssh jaskier@$IP
-Password: YouHaveTheMostIncredibleNeckItsLikeASexyGoose
 ```
 
 We do a `ls` and we found a file `user.txt`.
