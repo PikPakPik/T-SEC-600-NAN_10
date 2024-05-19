@@ -2,8 +2,8 @@
 
 ![Contest Date: 2024-05-07](https://img.shields.io/badge/contest%20date-2024--05--07-informational)
 ![Category: Web, BruteForce](https://img.shields.io/badge/category-web,bruteforce-%237159c1)
-![By: Alexandre & Eloi](https://img.shields.io/badge/by-Alexandre%20%26%20Eloi-%23f9a03c)
-
+![By: Alexandre & Eloi](https://img.shields.io/badge/by-Alexandre%20%26%20Eloi-%23f9a03c)  
+![alt text](img/tossacoin4.png)
 ## Description
 
 > Sing with me this amazing song !
