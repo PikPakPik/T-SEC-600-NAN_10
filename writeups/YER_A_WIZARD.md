@@ -12,8 +12,8 @@
 
 The flag is a reference to the Harry Potter series.
 
-UserFlag: `EPI{0n3_kaN_n3v3R_haV3_3n0U9H_50CK2}`  
-RootFlag: `EPI{t3H_tRuTh_1T_15_4_834ut1fUL_4nD_t3rr18L3_th1n9}`
+UserFlag: user.txt
+RootFlag: root.txt
 
 
 ## Flag Solutions
@@ -132,8 +132,6 @@ We do a `ls` and we found a file `user.txt`.
 
 ```bash
 cat user.txt
-
-VWxaQ1NtVjZRblZOTVRseVdWVTFabUpxVGpKTk1VcG1ZVWRHVjAweE9IcGlha0pXVDFWb1prNVVRa1JUZWtvNVEyYzlQUT09
 ```
 
 We found a base64 encoded string. We can decode this string.
@@ -141,8 +139,6 @@ We found a base64 encoded string. We can decode this string.
 We go the [CyberChef](https://icyberchef.com/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)From_Base64('A-Za-z0-9%2B/%3D',true,false)From_Base64('A-Za-z0-9%2B/%3D',true,false)&input=Vld4YVExTnRWalpSYmxaT1RWUnNlVmRXVlRGYWJVcHhWR3BLVGsxVmNHMVpWV1JIVmpBd2VFOUljR2xoYTBwWFZERldiMXByTlZWUmExSlVaV3R2TlZFeVl6bFFVVDA5) and we decode the string.
 
 We found the user flag. It was encoded in base64 3 times.
-
-UserFlag: `EPI{0n3_kaN_n3v3R_haV3_3n0U9H_50CK2}`
 
 ### Root Flag
 
@@ -353,16 +349,11 @@ ls
 root.txt
 
 cat root.txt
-
-53565a4a52564d324d315648546b56474e6a564455303957533064525746705353314a5156454e4f537a6448556c425555553161565539574d6b5244576c4e57536c4a5156456b7a5530564d4e544a45527a5255553064464e45565a5454493354314a5652454d7a556c705156555a425054303950513d3d
-
 ```
 
 We put the text in ([CyberChef](https://icyberchef.com/#recipe=From_Hex('None')From_Base64('A-Za-z0-9%2B/%3D',true,false)From_Base32('A-Z2-7%3D',false)&input=NTM1NjVhNGE1MjU2NGQzMjRkMzE1NjQ4NTQ2YjU2NDc0ZTZhNTY0NDU1MzAzOTU3NTMzMDY0NTI1NzQ2NzA1MzUzMzE0YTUxNTY0NTRlNGY1MzdhNjQ0ODU1NmM0MjU1NTU1NTMxNjE1NjU1Mzk1NzRkNmI1MjQ0NTc2YzRlNTc1MzZjNGE1MTU2NDU2YjdhNTUzMDU2NGQ0ZTU0NGE0NTUyN2E1MjU1NTUzMDY0NDY0ZTQ1NTY1YTU0NTQ0OTMzNTQzMTRhNTY1MjQ1NGQ3YTU1NmM3MDUxNTY1NTVhNDI1MDU0MzAzOTUwNTEzZDNk)) and we decode the string.
 
-We found the root flag.
-
-RootFlag: `EPI{t3H_tRuTh_1T_15_4_834ut1fUL_4nD_t3rr18L3_th1n9}`
+We found the root flag. It was encoded in Base32, Base64 and Hex.
 
 
 

@@ -12,8 +12,8 @@
 
 The flag is a reference to the song "Toss a Coin to Your Witcher" from the Netflix series "The Witcher".
 
-UserFlag: `EPI{R3Sp3C7_D03sNT_M4k3_h1S70rY}`  
-RootFlag: `?`
+UserFlag: user.txt
+RootFlag: root.txt
 
 
 ## Flag Solutions
@@ -135,12 +135,6 @@ Password: YouHaveTheMostIncredibleNeckItsLikeASexyGoose
 ```
 
 We do a `ls` and we found a file `user.txt`.
-
-```bash
-cat user.txt
-```
-
-UserFlag: `EPI{R3Sp3C7_D03sNT_M4k3_h1S70rY}`
 
 ### Root Flag
 
