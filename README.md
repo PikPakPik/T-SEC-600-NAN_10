@@ -14,6 +14,9 @@ Ce README contient des liens cliquables pour accéder aux fichiers du dossier `l
 
 ###  Medium - CVE and SSH Tunneling
 
+- [DALGONA ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-%23ff0000)](writeups/2%20-%20Medium%20-%20CVE%20and%20SSH%20Tunneling/DALGONA.md)
+- [GRANDLINE ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-%23ffcc00)](writeups/2%20-%20Medium%20-%20CVE%20and%20SSH%20Tunneling/GRANDLINE.md)
+- [SILENCE ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-%23ff0000)](writeups/2%20-%20Medium%20-%20CVE%20and%20SSH%20Tunneling/SILENCE.md)
 
 ###  Advanced - Realistic boxes
 
