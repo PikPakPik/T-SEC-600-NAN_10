@@ -126,7 +126,6 @@ http://$IP/t/o/s/s/...
 ```
 
 We found the flag in the source code of the page.
-![alt text](./img/tossacoin3.png)
 
 We found a ssh login. 
 
