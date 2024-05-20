@@ -1,6 +1,5 @@
 # CTF: Patience
 
-
 ![Difficulty: Insane](https://img.shields.io/badge/difficulty-insane-%23d752ff)
 ![Contest Date: 2024-05-14](https://img.shields.io/badge/contest%20date-2024--05--14-informational)
 ![Category: FTP, Hash, Crontab, SSH Key](https://img.shields.io/badge/category-ftp,hash,crontab,sshkey-%237159c1)
