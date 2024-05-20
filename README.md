@@ -23,6 +23,7 @@ Ce README contient des liens cliquables pour accéder aux fichiers du dossier `l
 
 - [AROUND_THE_WORLD ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-%23ff0000)](writeups/3%20-%20Advanced%20-%20Realistic%20boxes/AROUND_THE_WORLD.md)
 - [DIABOLICAL_BOX ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-%23ff0000)](writeups/3%20-%20Advanced%20-%20Realistic%20boxes/DIABOLICAL_BOX.md)
+- [PATIENCE ](writeups/3%20-%20Advanced%20-%20Realistic%20boxes/PATIENCE.md)
 
 
 N'hésitez pas à explorer ces fichiers pour résoudre le CTF !
