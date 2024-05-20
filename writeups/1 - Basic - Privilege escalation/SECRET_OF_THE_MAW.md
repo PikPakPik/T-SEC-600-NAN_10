@@ -12,8 +12,6 @@
 
 ## Write-up
 
-The flag is a reference to the Harry Potter series.
-
 UserFlag: user.txt
 RootFlag: root.txt
 
