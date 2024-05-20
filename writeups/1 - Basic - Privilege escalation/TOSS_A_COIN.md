@@ -116,13 +116,13 @@ Progress: 6045 / 220561 (2.74%)^C
 ===============================================================
 ```
 
-We do the same on the `/o`and after that we found a directory `/s` and after the `/s`again and we do the same to find at the end the `/y` directory.
+We do the same on the `/o` and we have to repeat this action many of times, we found lyrics of the music 
 
 Is the lyrics of the song.
 
 The url is : 
 ```
-http://$IP/t/o/s/s/_/a/_/c/o/i/n/_/t/o/_/y/o/u/r/_/w/i/t/c/h/e/r/_/o/h/_/v/a/l/l/e/y/_/o/f/_/p/l/e/n/t/y
+http://$IP/t/o/s/s/...
 ```
 
 We found the flag in the source code of the page.
