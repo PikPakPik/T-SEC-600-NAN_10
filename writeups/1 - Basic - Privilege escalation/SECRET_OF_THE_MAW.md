@@ -3,7 +3,7 @@
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-%2300ff00)
 ![Contest Date: 2024-05-14](https://img.shields.io/badge/contest%20date-2024--05--14-informational)
 ![Category: FTP](https://img.shields.io/badge/category-ftp-%237159c1)
-![By: Alexandre & Eloi](https://img.shields.io/badge/by-Alexandre%20%26%20Eloi-%23f9a03c)
+![By: Alexandre](https://img.shields.io/badge/by-Alexandre-%23f9a03c)
 ![alt text](img/secretofthemaw.png)
 
 ## Description

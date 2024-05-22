@@ -3,7 +3,7 @@
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-%2300ff00)
 ![Contest Date: 2024-05-07](https://img.shields.io/badge/contest%20date-2024--05--07-informational)
 ![Category: Web, BruteForce](https://img.shields.io/badge/category-web,bruteforce-%237159c1)
-![By: Alexandre & Eloi](https://img.shields.io/badge/by-Alexandre%20%26%20Eloi-%23f9a03c)  
+![By: Alexandre & Eloi (Root)](https://img.shields.io/badge/by-Alexandre%20%26%20Eloi%20(Root)-%23f9a03c)  
 ![alt text](img/tossacoin4.png)
 ## Description
 
